@@ -133,7 +133,8 @@ Route::get('/api/tracking/{resi}', [CargoTrackingController::class, 'api']);
     [UserController::class, 'resetPassword'])->name('user.resetPassword');
      Route::get('/user/{id}/reset', [UserController::class, 'reset'])->name('user.reset');
      
-   
+   Route::get('/laporan/harian', [LaporanController::class, 'harian'])->name('laporan.harian');
+Route::get('/laporan/bulanan', [LaporanController::class, 'bulanan'])->name('laporan.bulanan');
 });
     Route::middleware('auth','role:super-admin|admin|driver')->group(function () {
       Route::get('/cargo', [CargoController::class, 'index'])->name('cargo.index');
