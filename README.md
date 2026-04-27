@@ -19,7 +19,7 @@ A web-based cargo monitoring system to track shipment status, manage logistics d
 
 ## 📸 Screenshots
 
-(https://ighfarhost.com/project-pos.html)
+(https://ighfarhost.com/project-cargo.html)
 
 ## 🎯 Purpose
 
