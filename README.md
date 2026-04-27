@@ -47,6 +47,14 @@ php artisan db:seed
 
 php artisan serve
 
+## 🔄 System Flow
+
+1. User login
+2. Admin creates shipment
+3. Driver updates delivery status
+4. System updates tracking in real-time
+5. Dashboard reflects latest data
+
 ## 🔐 Link Demo (Optional)
 
 https://cargo.ighfarhost.com
@@ -56,9 +64,10 @@ https://cargo.ighfarhost.com
 - Super-admin
   Email: [superadmin@mail.com]
   Password: password123
-  - Admin
-    Email: [admin@mail.com]
-    Password: password
+
+- Admin
+  Email: [admin@mail.com]
+  Password: password
 
 - Mitra
   Email: [mitra@mail.com]
@@ -83,9 +92,9 @@ Backend Developer (Laravel)
 
 ## 💡 Project Value
 
-This project demonstrates the ability to build a scalable logistics system with real-world use cases, focusing on:
+This project simulates a real-world logistics system used in production environments, focusing on:
 
-- Clean architecture
-- Efficient data handling
-- Practical business solutions
-- Designed to help small–medium logistics businesses manage and monitor shipments efficiently.
+- Scalable backend architecture
+- Efficient shipment tracking workflow
+- Role-based system for multi-user operations
+- Real-time data handling for logistics monitoring
